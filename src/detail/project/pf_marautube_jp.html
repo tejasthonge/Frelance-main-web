@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Meta tags & title /-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>MARAUTUBE | Saewa Lee</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/pf_style.css" />
+    <link rel="stylesheet" href="../../css/magnific-popup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!--js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/621daaf706.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <button class="material-icons" onClick="history.back()">close</button>
+    </header>
+
+    <main>
+      <section
+        class="title"
+        style="
+          background-image: url('https://marautube.herokuapp.com/profile-img.jpg');
+        "
+      >
+        <div class="title-text">
+          <h2 class="josefin eff">marautube</h2>
+          <h3 class="eff">マローチューブ (韓国語・動画コミュニティーサイト)</h3>
+        </div>
+
+        <a href="#cont" class="scroll scrolldown josefin">
+          scroll<br />down<span></span>
+        </a>
+      </section>
+
+      <!--cont-->
+      <section id="cont">
+        <div class="textbox">
+          <div class="ttl">
+            <h2 class="josefin eff">marautube</h2>
+            <h3 class="eff">
+              マローチューブ (韓国語・動画コミュニティーサイト)
+            </h3>
+          </div>
+          <div class="textbox-inner eff">
+            <p>
+              Youtube Clone Coding.<br />ハリーポッターの「マローダーズマップ」からモチーフを得て、ホグワーツの学生向けの動画サイトを構築しました。
+              アカウント作成、
+              修正、動画アップロード、修正、削除、ログイン、録画、コメント作成、削除が
+              可能です。
+            </p>
+            <p>
+              今までは
+              <span class="point-text">Javascript</span
+              >が未熟で、試せなかったことが多かったら、今回の作品では自らコードを作って入れたものが多かったです。最も力を入れたところは
+              <a href="#loading" class="point-text">ローディングページ</a>
+              <a href="#channel" class="point-text">チャンネルページ</a>
+              <a href="#cursor" class="point-text">カーソルカスタマイズ</a>
+              <a href="#dark" class="point-text">ダークモード</a>です。
+            </p>
+            <p>
+              バックエンドまで構築したのは初めてだったので、試行錯誤も多く、無数なエラーの中、諦めたい気持ちもありましたが、最後まで完成して韓国のBootCampでの「優秀作品」に選ばれてもっと意味深い作品・作業になりました。
+            </p>
+          </div>
+
+          <div class="btn-box eff">
+            <a
+              href="https://github.com/leesaewa/wetube-reloaded"
+              class="btn btn__github"
+              target="_blank"
+              ><svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                /></svg
+              ><span>gitHub</span></a
+            >
+            <a
+              href="https://marautube.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >サイトを見に行く</a
+            >
+          </div>
+        </div>
+
+        <!--vimeo video-->
+        <article id="video">
+          <!-- <div class="video-container">
+            <div class="video">
+              <iframe
+                src="https://player.vimeo.com/video/648624001?muted=1&autoplay=1&loop=1&title=0&autopause=0&background=1&controls=1&h=3b40961307&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                title="벤틀리 사이트 시연 동영상"
+                crossorigin
+              ></iframe>
+            </div>
+          </div> -->
+
+          <div class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">concept</h2>
+              <h3>ハリーポッターの魔法学校コンセプトに忠実に</h3>
+            </div>
+            <p class="eff">
+              <span class="point-text">マローダーズマップ</span
+              >でモチーフを得たので、魔法学校ホグワーツの世界観に忠実に従いたかったです。<br />普通じゃない魔法学校に通っているが、マローダーズはいたずらが好きな10代の学生たちだから教授たちが接続できない魔法をかけた
+              秘密のコミュニティーサイトを作ったというコンセプトです。
+            </p>
+            <p class="eff">
+              イントロページに「マローダーズマップ」を表す魔法の呪文をしたという仮定の上、右側の画像が時間をかけてフェードインされるアニメーションを与えました。
+              <br />
+              「マグルって何ですか？」をクリックすると、マグルたちを追放するためにgoogle
+              ukのリンクを入れました。
+            </p>
+          </div>
+        </article>
+        <!--//vimeo video-->
+
+        <!--first view-->
+        <figure class="portfolio-list">
+          <img
+            src="../../img/portfolio/marau00.jpg"
+            alt="marautube intro"
+            class="eff"
+          />
+          <figcaption>
+            <ul class="text-basic eff">
+              <li>
+                <h2>color</h2>
+                <div class="color">
+                  <div>
+                    <h3 class="josefin">main color</h3>
+                    <span style="background: #2a0100"></span>
+                    <p>#2a0100</p>
+                  </div>
+                  <div>
+                    <h3 class="josefin">color</h3>
+                    <span style="background: #820606"></span>
+                    <p>#820606</p>
+                  </div>
+                  <div>
+                    <h3 class="josefin">color</h3>
+                    <span style="background: #d8ae84"></span>
+                    <p>#d8ae84</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h2>font</h2>
+                <p class="txt">
+                  English: Cinzel Decorative<br />Korean: Hahmlet<br />Google
+                  Material Icon
+                </p>
+              </li>
+              <li>
+                <h2>tool</h2>
+                <div class="txt">
+                  <h3>Front-end</h3>
+                  <p>SCSS, Javascript, Pug, Webpack, Babel</p>
+
+                  <h3>Back-end</h3>
+                  <p>NodeJS, Express, MongoDB, AWS</p>
+
+                  <h3>Design</h3>
+                  <p>Photoshop</p>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="text-basic eff">
+              <li>
+                <h2>type</h2>
+                <p class="txt">Responsive web</p>
+              </li>
+              <li>
+                <h2>total elapsed time</h2>
+                <p class="txt">2022.6~8</p>
+              </li>
+              <li>
+                <h2>theme</h2>
+                <p class="txt">
+                  ユーチューブクローンコーディング、動画サイト、ハリーポッター、マローダーズマップ、レスポンシブウェブ、ギャグ。
+                </p>
+              </li>
+              <li>
+                <h2>target</h2>
+                <p class="txt">10代</p>
+              </li>
+              <li>
+                <h2>role</h2>
+                <p class="txt">Design/Development 100%</p>
+              </li>
+            </ul>
+          </figcaption>
+        </figure>
+        <!--//first view-->
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau01.jpg"
+            alt="marautube intro"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">design</h2>
+              <h3>動画中心のシンプルなデザイン</h3>
+            </div>
+            <p class="eff">
+              動画サイトなので、特別なデザイン要素を入れずに動画に
+              集中できるようにデザインしました。<br />
+              最初に出力される上部（DISCOVERY）には、「サイトでおすすめの
+              動画」、「サイトでおすすめするチャンネル」そして「最も購読者が多い
+              アップローダー」を露出させました。
+              （デザインしただけで、機能しません。）
+            </p>
+            <p class="eff">
+              そしてその下(TRENDING
+              VIDEO)は、登録した動画が順番に露出されるように
+              しました。動画がメインなので、サムネイルとタイトルが一番目立つように
+              しました。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau02.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>詳細ページのデザインと技能</h3>
+            </div>
+            <p class="eff">
+              左側には動画、右側にはコメントをも越せるようにデザインしました。<br />
+              動画のコントローラーもデザインしており、ユーチューブのようにカーソルの動きがなければ、
+              コントローラーが非表示になります。 また動画を最後まで見た場合、
+              自動に再生回数がカウントされます。そしてショートカットキーも動作します。
+              <br />
+              現在、動画は問題がありますが、スマホでは再生できないです。（修正予定）
+            </p>
+            <p class="eff">
+              右側のコメントの場合、ログインしないとコメントを残せないように
+              塞いでおり(写真を参照)、最新のコメントが一番下に並べられるように
+              しました。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau11.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <p class="eff">
+              <span class="point-text">ログインした場合</span>、コメント作成が
+              可能になり、自分が残したコメントを削除することもできます。
+              また、ユーザーが
+              投稿した場合、画像の修正または削除することができます。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="marautube-align">
+          <img
+            src="../../img/portfolio/marau03.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <img
+            src="../../img/portfolio/marau04.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <img
+            src="../../img/portfolio/marau08.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>会員登録/ログイン/アップロードなどのフォーム</h3>
+            </div>
+            <p class="eff">
+              フォームを作成する必要がある会員登録、ログイン、アップロード、会員情報の修正、動画
+              修正などのフォーム様式は統一感を与えるために同じデザインを
+              適用しました。<br />
+              <span class="point-text">ログインページ</span>はサイトで
+              登録してログインすることもできますが、GitHubソーシャルログインを連動したので、こちらのアカウントでもログイン可能です。
+            </p>
+            <p class="eff">
+              <span class="point-text">会員登録</span>にはコンセプトを守るため、
+              「寮入力」と自分のアピールができる自己紹介を書けるマスを用意しました。また、会員情報修正でプロフィール登録をするより登録
+              するときにプロフィール画像を登録できるようにしました。
+              もしプロフィール 画像を登録していないときは、上段に
+              <span class="point-text">no data</span
+              >と表示されます。情報修正では'no
+              data'というイメージが表示され、IDは修正が不可能になります。
+            </p>
+            <p class="eff">
+              <span class="point-text">アップロードページ</span
+              >はブラウザーでサービスする添付ファイルフォームのデザインがサイトと合わないため、カスタマイズをしました。サムネイル画像を添付したら、ユーザーが添付したイメージをプレビューできます。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure id="channel">
+          <img
+            src="../../img/portfolio/marau05.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>チャンネルの詳細ページ</h3>
+            </div>
+            <p class="eff">
+              他のユーザーや自分のチャンネルをクリックすると出力されるページです。
+              ユーザーの
+              IDと所属寮、自己紹介、プロフィール画像が左側に出力され、
+              そのユーザーがアップロードした動画は右側に出力されます。 また、
+              登録した動画が3つ以上ある場合、便宜のためスクロールしても左
+              ユーザー情報は固定しました。
+            </p>
+            <p class="eff">
+              スマホではユーザー情報の固定を解除し、上段に位置させ、その
+              以下にアップロードした動画が出力されます。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau09.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <p class="eff">
+              もしプロフィール画像とアップロードした動画がないユーザーの場合は、「no
+              data」ではなく、「マローダーズマップ」イメージを出力するようにし、
+              右側には「死喰い人」のイメージを入れ、
+              <span class="point-text"
+                >Something Wrong. Someone used Deletrius.</span
+              >というフレーズを追加してコンセプトを守りながらウィットを加えました。(Deletrius:
+              なくす魔法)
+            </p>
+          </figcaption>
+        </figure>
+
+        <!-- dark mode -->
+        <figure id="dark">
+          <img
+            src="../../img/portfolio/marau06.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>ダークモード</h3>
+            </div>
+
+            <div class="portfolio-detail__eff eff">
+              <p>
+                目の快適さのためにダークモードを追加しました。
+                一度もやってみたことがない技能だったので、それなりに研究しながら具現しました。
+                ユーザーがほしい時にボタンでモードを調節させるために
+                <span class="point-text">Javascript</span>を採用しており、
+                ブラウザを「オン」「オフ」にするたびに、ユーザーが指定したモードが保存されるよう、
+                ウェブストレージオブジェクトである
+                <span class="point-text">localstorage</span
+                >を使用して、ブラウザー内で「鍵-値」を保存できるようにしました。
+              </p>
+              <p>
+                <span class="point-text">Cookie, Session</span>ではなく、
+                <span class="point-text">localstorage</span
+                >を使用した理由はlocalstorageの知識が浅いということと、保存されたデータはセッション間で共有されること、
+                サーバーではなくローカルに保存される点、Javascriptで操作し、
+                スマホでも使用できる点などがあります。
+              </p>
+
+              <div class="code-review">
+                <div class="code-review__box">
+                  <h5>HTML5</h5>
+                  <pre>
+  <xmp>
+    <li class="theme-change">
+      <a href="javascript:void(0)"
+        ><i class="material-icons">dark_mode</i></a
+      >
+    </li>
+  </xmp>
+</pre>
+
+                  <p>
+                    html構造は簡単です。基本は <samp>light mode</samp>なので
+                    <samp>material icons</samp>アイコンを
+                    <samp>dark_mode</samp>で設定します。
+                  </p>
+                  <p>
+                    <samp>dark mode</samp>になったら
+                    <samp>CSS</samp>ファイルの中に
+                    <samp>dark-mode</samp
+                    >時変わる色など指定します。色は<samp>強烈出ない色</samp>を使いました。
+                    <samp>#000</samp>と <samp>#fff</samp>を使えばむしろ
+                    可読性が落ちたり、明るくて目に入らない場合があり、
+                    <samp>#121212</samp>と <samp>#bbb</samp>を使いました。
+                  </p>
+                </div>
+
+                <div class="code-review__box">
+                  <h5>Javascript</h5>
+                  <pre>
+<code>  // dark mode
+  const darkTheme = document.querySelector(".theme-change a");
+  const darkIcon = darkTheme.querySelector("i");
+
+  // ボタンをクリックするたびに同作するFunction
+  function darkThemeClick() {
+    darkTheme.addEventListener("click", function () {
+      console.log(darkIcon);
+      if (!body.classList.contains("dark-mode")) {
+        body.classList.add("dark-mode");
+        darkIcon.innerText = "light_mode";
+        localStorage.setItem("modeSwitch", "light_mode");
+      } else if (body.classList.contains("dark-mode")) {
+        body.classList.remove("dark-mode");
+        darkIcon.innerText = "dark_mode";
+        localStorage.setItem("modeSwitch", "dark_mode");
+      }
+    });
+  }
+
+  darkThemeClick();
+
+  const modeSwitch = localStorage.getItem("modeSwitch"); // "modeSwitch" アイテムの値を読み込む
+
+  //もし modeSwitchがdark_mode(テーマはlight)なら、アイコンをdark_mode(月)に変える。
+  if (modeSwitch === "dark_mode") {
+    body.classList.remove("dark-mode");
+    darkIcon.innerText = "dark_mode";
+  } else if (modeSwitch === "light_mode") {
+    // modeSwitchがlight_mode(テーマはdark)なら、アイコンをlight_mode(太陽)に変える。
+    body.classList.add("dark-mode");
+    darkIcon.innerText = "light_mode";
+  }</code>
+</pre>
+                  <p>
+                    ボタンをクリックするたびに<samp>localstorage</samp>にアイコンの名前を保存して現在のアイコンが<samp>light</samp>なのか
+                    <samp>dark</samp
+                    >なのか、確認できるようにします。また、現在が
+                    <samp>dark mode</samp>ならば<samp>body</samp>に
+                    <samp>dark-mode</samp>Classを追加し、アイコンを
+                    <samp>light_mode</samp>に変えます。
+                  </p>
+                </div>
+              </div>
+              <!-- //code-review -->
+            </div>
+            <!-- //portfolio-detail -->
+          </figcaption>
+        </figure>
+        <!-- //dark mode -->
+
+        <!-- portfolio-detail -->
+        <div class="portfolio-detail" id="cursor">
+          <div class="ttl eff">
+            <h2 class="josefin">function</h2>
+            <h3>マウスオーバー効果/カーソルカスタム</h3>
+          </div>
+
+          <div class="portfolio-detail__eff eff">
+            <p>
+              魔法学校のコンセプトのため、マウスを魔法杖と設定し、リンクにマウスを上げると
+              <span class="point-text">LUMOS(ルーモス。火を灯す魔法。)</span
+              >に変わるアニメーションを入れました。
+            </p>
+
+            <ul>
+              <li>
+                <h4>マウスオーバーの前</h4>
+                <div class="cursor"></div>
+              </li>
+              <li>
+                <h4>マウスオーバーの後</h4>
+                <div class="cursor link-cursor">
+                  <div class="link-wrap">
+                    <div class="cursor-rotate">
+                      <span class="eng">l</span><span class="eng">u</span
+                      ><span class="eng">m</span><span class="eng">o</span
+                      ><span class="eng">s</span>
+                    </div>
+                    <div class="cursor-rotate">
+                      <span class="eng">l</span><span class="eng">u</span
+                      ><span class="eng">m</span><span class="eng">o</span
+                      ><span class="eng">s</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="code-review">
+              <div class="code-review__box">
+                <h5>HTML5</h5>
+                <pre>
+  <xmp>
+    <div class="cursor">
+      <div class="link-wrap">
+        <div class="cursor-rotate">
+          <span class="eng">l</span><span class="eng">u</span
+          ><span class="eng">m</span><span class="eng">o</span
+          ><span class="eng">s</span>
+        </div>
+        <div class="cursor-rotate">
+          <span class="eng">l</span><span class="eng">u</span
+          ><span class="eng">m</span><span class="eng">o</span
+          ><span class="eng">s</span>
+        </div>
+      </div>
+    </div>
+  </xmp>
+</pre>
+                <p>
+                  カーソルを<samp>CSS</samp>で隠して<samp>div</samp>で偽物カーソルを作りました。画像を使ったらメンテナンスが大変なため、いちいち文字を壊して<samp
+                    >transform: rotate(~deg);</samp
+                  >と<samp>position: absolute;</samp>で丸の模様に作りました。
+                </p>
+              </div>
+
+              <div class="code-review__box">
+                <h5>Javascript</h5>
+                <pre>
+<code>let mouseCursor = document.querySelector(".cursor");
+  let link = document.querySelectorAll("a");
+  let hoverLink = document.querySelectorAll(".hover-link");
+  
+  // マウスが動くたびにdivを動かす。
+  window.addEventListener("mousemove", cursor);
+  function cursor(e) {
+    mouseCursor.style.left = e.pageX + "px";
+    mouseCursor.style.top = e.pageY + "px";
+  }
+  
+  // aタグにマウスを載せたら「link-cursor」というクラスを付ける
+  link.forEach((link) => {
+    link.addEventListener("mouseover", () => {
+      mouseCursor.classList.add("link-cursor");
+    });
+  
+    link.addEventListener("mouseleave", () => {
+      mouseCursor.classList.remove("link-cursor");
+    });
+  });
+  // 「.hover-link」というクラスを持っている要素にマウスを載せたら「link-cursor」というクラスをつける。
+  hoverLink.forEach((hoverLink) => {
+    hoverLink.addEventListener("mouseover", () => {
+      mouseCursor.classList.add("link-cursor");
+    });
+    hoverLink.addEventListener("mouseleave", () => {
+      mouseCursor.classList.remove("link-cursor");
+    });
+  });</code>
+</pre>
+                <p>
+                  偽物<samp>div</samp>を動かすたびに<samp>Javascript</samp>で x,
+                  y座標値を各自<samp>left, top</samp
+                  >に入力されるようにしました。
+                </p>
+              </div>
+            </div>
+            <!-- //code-review -->
+          </div>
+        </div>
+        <!-- //portfolio-detail -->
+
+        <!-- portfolio-detail -->
+        <div class="portfolio-detail" id="loading">
+          <div class="ttl eff">
+            <h2 class="josefin">function</h2>
+            <h3>ローディングページアニメーション効果</h3>
+          </div>
+
+          <div class="portfolio-detail__eff eff">
+            <p>
+              ハリーポッターで「マローダーズマップ」を実行すると、すべての人の動きが分かるように
+              「足跡」が動きますが、それをローディングページに適用させ、ユーザーが地図の
+              中で実際に動いているように感じられるように表現したかったです。
+            </p>
+
+            <div class="loading-wrap">
+              <div class="loading">
+                <div class="ani">
+                  <div class="rotate-wrap">
+                    <p class="rotate">
+                      <span>m</span><span>a</span><span>r</span><span>a</span
+                      ><span>u</span><span>d</span><span>e</span><span>r</span
+                      ><span>s</span>
+                    </p>
+                    <p class="rotate">
+                      <span>m</span><span>a</span><span>r</span><span>a</span
+                      ><span>u</span><span>d</span><span>e</span><span>r</span
+                      ><span>s</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-review">
+              <div class="code-review__box">
+                <h5>HTML5/CSS</h5>
+                <pre>
+  <xmp>
+  <div class="loading">
+    <div class="ani">
+      <div class="rotate-wrap">
+        <p class="rotate">
+          <span>m</span><span>a</span><span>r</span><span>a</span
+          ><span>u</span><span>d</span><span>e</span><span>r</span
+          ><span>s</span>
+        </p>
+        <p class="rotate">
+          <span>m</span><span>a</span><span>r</span><span>a</span
+          ><span>u</span><span>d</span><span>e</span><span>r</span
+          ><span>s</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  //css
+  .ani {
+    background: url("https://marautube.herokuapp.com/loading.png") no-repeat 0
+      0;
+    background-size: 1287px 127px;
+    position: relative;
+    z-index: 99999999;
+    width: 127px;
+    height: 127px;
+    animation: loading 2000ms infinite steps(10);
+  }
+  @keyframes loading {
+    100% {
+      background-position: -1287px 0;
+    }
+  }
+  </xmp>
+</pre>
+                <p>
+                  丸の周りを回る文字はカーソルで作った形式と同じく構築しました。<br />
+                  足跡が動くアニメーションは<samp>CSS keyframes</samp>の
+                  <samp>steps</samp>を利用して10フレームごとに
+                  <samp>background position</samp>が
+                  <samp>width</samp>値ほど見せられるように動作します。
+                </p>
+              </div>
+
+              <div class="code-review__box">
+                <h5>Javascript</h5>
+                <pre>
+<code>window.addEventListener("load", () => {
+  body.classList.remove("before-load");
+  document.querySelector(".loading").addEventListener("transitionend", (e) => {
+    body.removeChild(e.currentTarget);
+  });
+});</code>
+</pre>
+                <p>
+                  <samp>loading</samp>が完了したら<samp>body</samp>に指定した
+                  <samp>before-load</samp>クラスを削除し、
+                  <samp>transition</samp>アニメーションが再生終わったら、
+                  <samp>body</samp>中にいる<samp>.loading</samp>タグを全部
+                  削除して見えないようにしました。
+                </p>
+              </div>
+            </div>
+            <!-- //code-review -->
+          </div>
+        </div>
+        <!-- //portfolio-detail -->
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau07.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>ログインしたときのヘッダーの変化</h3>
+            </div>
+            <p class="eff">
+              ログインをしたときは、ユーザのプロフィール画像とニックネームが出力されます。
+              また<span class="point-text">drop down</span
+              >を使用してプロフィールを押すとメニューが出ます。
+              ここでアップロード、ビデオ録画、マイチャンネル、会員情報の修正、ログアウトができます。
+            </p>
+            <p class="eff">
+              このような些細なところにもコンセプトを維持するために
+              <span class="point-text">会員情報の修正をポリジュース薬</span>で、
+              <span class="point-text">ログアウトをいたずら完了</span
+              >にしました。
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau10.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>404エラーページ</h3>
+            </div>
+            <p class="eff">
+              <a
+                href="https://marautube.herokuapp.com/404"
+                class="point-text"
+                target="_blank"
+                >404エラーページ</a
+              >もデザインしました。
+              最後までモチーフでありコンセプト維持のために「マローダーズマップ」から出てきたスネイプ教授の好奇心を永遠に避けさせる魔法が出力されるようにしました。
+            </p>
+            <p class="eff">
+              スネイプ教授のイメージはgifで動き、「いたずら再開」を
+              押すとイントロ画面に移動します。
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <div class="ttl eff">
+        <h2 class="josefin">Other Projects</h2>
+        <h3>その他</h3>
+      </div>
+      <ul class="eff">
+        <li>
+          <a
+            href="../../../index.html#work"
+            style="background-image: url(../../img/about/slide10.jpg)"
+            ><span>prev</span>
+            <p>main page</p></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://leesaewa.github.io/react-practice/"
+            style="background-image: url(../../img/kor_22_04.jpg)"
+            target="_blank"
+            ><span>next</span>
+            <p>react- movie app</p></a
+          >
+        </li>
+      </ul>
+      <small>Copyright &#169; Saewa's Portfolio All Rights Reserved.</small>
+    </footer>
+
+    <!-- floating nav -->
+    <section class="floating-nav">
+      <ul>
+        <li>
+          <a href="pf_marautube.html" class="material-icons floating-nav__lang"
+            >language
+            <p class="tooltip eng">korean</p></a
+          >
+        </li>
+        <li>
+          <a href="#" id="backToTop" class="material-icons floating-nav__top"
+            >arrow_upward</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- //floating nav -->
+
+    <script src="../../js/common.js"></script>
+
+    <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+  </body>
+</html>

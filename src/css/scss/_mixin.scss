@@ -1,0 +1,60 @@
+@mixin josefin($fw: bold) {
+  font-family: "Josefin Sans", "sans-serif";
+  font-weight: $fw;
+}
+
+@mixin flexbox($flexW: nowrap, $flexJC: center, $flexAI: center) {
+  display: flex;
+  flex-wrap: $flexW;
+  justify-content: $flexJC;
+  align-items: $flexAI;
+}
+
+@mixin gridLayout($minW: 24%, $maxW: 1fr) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($minW, $maxW));
+}
+
+@mixin widthSize($ws: 1540px, $ta: center, $margin: 0, $marginB: 0) {
+  max-width: $ws;
+  width: 100%;
+  margin: $margin auto $marginB;
+  text-align: $ta;
+}
+
+@mixin buttonColor() {
+  display: block;
+  background-color: $mainColor;
+  color: $white;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid $mainColor;
+  padding: 8px 10px 8px;
+  font-size: 1em;
+  transition: $easefive;
+}
+
+@mixin buttonHover {
+  background-color: $subColor;
+  color: $mainColor;
+}
+@mixin listRadius($rd: 2rem) {
+  border-top-left-radius: $rd;
+  border-bottom-right-radius: $rd;
+}
+
+@mixin whiteBgRadius() {
+  border-top-right-radius: 12em;
+  border-bottom-left-radius: 12em;
+}
+
+@mixin img($imgW: 100%, $imgH: 50vh) {
+  width: $imgW;
+  height: $imgH;
+  object-fit: cover;
+}
+
+@mixin whiteBg() {
+  padding: 5em 0;
+  background-color: $white;
+}

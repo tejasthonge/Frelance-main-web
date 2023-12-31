@@ -1,0 +1,42 @@
+@import "scss/_variable.scss";
+@import "scss/_mixin.scss";
+@import "scss/_reset.scss";
+@import "scss/_header.scss";
+@import "scss/_main.scss";
+@import "scss/_footer.scss";
+@import "scss/_common.scss";
+
+//
+//
+//
+
+button {
+  @include buttonColor;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    @include buttonHover;
+  }
+}
+
+//
+// social btn
+//
+.social {
+  @include flexbox();
+  li {
+    a {
+      i {
+        font-size: 2em;
+        transition: $easefive;
+      }
+      &:hover {
+        i {
+          transform: translateY(-1rem);
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Meta tags & title /-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>MARAUTUBE | Saewa Lee</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/pf_style.css" />
+    <link rel="stylesheet" href="../../css/magnific-popup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!--js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/621daaf706.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <button class="material-icons" onClick="history.back()">close</button>
+    </header>
+
+    <main>
+      <section
+        class="title"
+        style="
+          background-image: url('https://marautube.herokuapp.com/profile-img.jpg');
+        "
+      >
+        <div class="title-text">
+          <h2 class="josefin eff">marautube</h2>
+          <h3 class="eff">머로튜브 (동영상 커뮤니티 사이트)</h3>
+        </div>
+
+        <a href="#cont" class="scroll scrolldown josefin">
+          scroll<br />down<span></span>
+        </a>
+      </section>
+
+      <!--cont-->
+      <section id="cont">
+        <div class="textbox">
+          <div class="ttl">
+            <h2 class="josefin eff">marautube</h2>
+            <h3 class="eff">머로튜브 (동영상 커뮤니티 사이트)</h3>
+          </div>
+          <div class="textbox-inner eff">
+            <p>
+              유튜브 클론 코딩. <br />해리포터의 '머로더즈 맵'에서 모티브를 얻어
+              호그와트 학생들을 위한 동영상 사이트를 구축했습니다. 계정 생성,
+              수정, 동영상 업로드, 수정, 삭제, 로그인, 녹화, 댓글 생성, 삭제가
+              가능합니다.
+            </p>
+            <p>
+              그동안은 <span class="point-text">Javascript</span>의 실력이
+              부족해서 시도해보지 못했던 것이 많았다면, 이번 작품에는 직접 만든
+              코드를 넣을 수 있었습니다. 가장 공들인 부분은
+              <a href="#loading" class="point-text">로딩 페이지</a>
+              <a href="#channel" class="point-text">채널 페이지</a>
+              <a href="#cursor" class="point-text">커서 커스텀</a>
+              <a href="#dark" class="point-text">다크 모드</a>입니다.
+            </p>
+            <p>
+              백엔드까지 구축해본 것은 처음이라서 이론을 머릿속에 넣는 것도
+              어렵고 시행착오도 많았지만, 멋진 작품이 나와서 노마드코더 내에서
+              우수 졸업생 완성작에도 뽑히게 돼서 의미있는 작업이 되었습니다.
+            </p>
+          </div>
+
+          <div class="btn-box eff">
+            <a
+              href="https://github.com/leesaewa/wetube-reloaded"
+              class="btn btn__github"
+              target="_blank"
+              ><svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                /></svg
+              ><span>gitHub</span></a
+            >
+            <a
+              href="https://marautube.herokuapp.com/"
+              class="btn"
+              target="_blank"
+              >사이트 바로가기</a
+            >
+          </div>
+        </div>
+
+        <!--vimeo video-->
+        <article id="video">
+          <!-- <div class="video-container">
+            <div class="video">
+              <iframe
+                src="https://player.vimeo.com/video/648624001?muted=1&autoplay=1&loop=1&title=0&autopause=0&background=1&controls=1&h=3b40961307&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                title="벤틀리 사이트 시연 동영상"
+                crossorigin
+              ></iframe>
+            </div>
+          </div> -->
+
+          <div class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">concept</h2>
+              <h3>해리포터의 마법학교 컨셉에 충실하게</h3>
+            </div>
+            <p class="eff">
+              <span class="point-text">머로더즈 맵</span>에서 모티브를 가져온
+              거라서 마법학교 호그와트 세계관을 충실하게 따르고 싶었습니다.<br />
+              평범하지 않은 마법학교를 다니고 있지만, 머로더즈는 장난치기
+              좋아하는 10대 학생들이기에 교수님들이 접속할 수 없는 마법을 건
+              비밀 커뮤니티 사이트를 만들었다는 컨셉입니다.
+            </p>
+            <p class="eff">
+              메인 인트로 페이지에 '머로더즈 맵'을 불러오는 마법 주문을 외쳤다는
+              가정하에 오른쪽 이미지가 시간을 두고 페이드 인 되도록 애니메이션을
+              주었습니다.<br />
+              '머글이 뭐예요?'를 클릭하면 머글들을 추방하기 위해 google uk
+              페이지로 넘어가도록 했습니다.
+            </p>
+          </div>
+        </article>
+        <!--//vimeo video-->
+
+        <!--first view-->
+        <figure class="portfolio-list">
+          <img
+            src="../../img/portfolio/marau00.jpg"
+            alt="marautube intro"
+            class="eff"
+          />
+          <figcaption>
+            <ul class="text-basic eff">
+              <li>
+                <h2>color</h2>
+                <div class="color">
+                  <div>
+                    <h3 class="josefin">main color</h3>
+                    <span style="background: #2a0100"></span>
+                    <p>#2a0100</p>
+                  </div>
+                  <div>
+                    <h3 class="josefin">color</h3>
+                    <span style="background: #820606"></span>
+                    <p>#820606</p>
+                  </div>
+                  <div>
+                    <h3 class="josefin">color</h3>
+                    <span style="background: #d8ae84"></span>
+                    <p>#d8ae84</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h2>font</h2>
+                <p class="txt">
+                  English: Cinzel Decorative<br />Korean: Hahmlet<br />Google
+                  Material Icon
+                </p>
+              </li>
+              <li>
+                <h2>tool</h2>
+                <div class="txt">
+                  <h3>Front-end</h3>
+                  <p>SCSS, Javascript, Pug, Webpack, Babel</p>
+
+                  <h3>Back-end</h3>
+                  <p>NodeJS, Express, MongoDB, AWS</p>
+
+                  <h3>Design</h3>
+                  <p>Photoshop</p>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="text-basic eff">
+              <li>
+                <h2>type</h2>
+                <p class="txt">Responsive web</p>
+              </li>
+              <li>
+                <h2>total elapsed time</h2>
+                <p class="txt">2022.6~8</p>
+              </li>
+              <li>
+                <h2>theme</h2>
+                <p class="txt">
+                  유튜브 클론 코딩, 동영상 사이트, 해리포터, 머로더즈 맵,
+                  반응형, 개그
+                </p>
+              </li>
+              <li>
+                <h2>target</h2>
+                <p class="txt">10대</p>
+              </li>
+              <li>
+                <h2>role</h2>
+                <p class="txt">design/Development 100%</p>
+              </li>
+            </ul>
+          </figcaption>
+        </figure>
+        <!--//first view-->
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau01.jpg"
+            alt="marautube intro"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">design</h2>
+              <h3>동영상 위주로 한 심플한 디자인</h3>
+            </div>
+            <p class="eff">
+              동영상 사이트이기 때문에 별다른 디자인 요소를 넣지 않고 동영상에
+              집중되도록 디자인했습니다.<br />
+              제일 먼저 출력되는 상단 부분(DISCOVERY)에는 '사이트에서 추천하는
+              동영상', '사이트에서 추천하는 채널' 그리고 '가장 구독자가 많은
+              업로더'를 노출시켰습니다. (디자인만 했을 뿐, 실제로 기능이
+              구현되지는 않았습니다.)
+            </p>
+            <p class="eff">
+              그리고 그 아래(TRENDING VIDEO)는 등록한 동영상이 노출되도록
+              했습니다. 동영상이 메인이라서 섬네일과 제목이 가장 눈에 띄도록
+              했습니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau02.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>상세 페이지 디자인과 기능</h3>
+            </div>
+            <p class="eff">
+              왼쪽에는 동영상, 오른쪽에는 댓글을 남길 수 있게 디자인했습니다.<br />
+              동영상 컨트롤 바(재생 바)도 디자인했으며, 유튜브처럼 커서의
+              움직임이 없으면 재생바가 자동으로 감춰집니다. 또한 동영상을 끝까지
+              봤을 경우, 자동으로 재생횟수가 카운트 되며, 단축키도
+              동작합니다.<br />
+              현재 동영상은 문제가 있는데, 모바일에서는 재생이 되지 않는다는
+              것입니다. (수정 예정)
+            </p>
+            <p class="eff">
+              오른쪽 댓글의 경우, 로그인을 하지 않으면 댓글을 남길 수 없도록
+              막아뒀으며(사진 참조), 최신 댓글이 가장 아래로 정렬되도록
+              했습니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau11.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <p class="eff">
+              <span class="point-text">로그인했을 경우</span>, 댓글 작성이
+              가능해지며, 본인이 남긴 댓글을 삭제할 수도 있습니다. 또한, 본인이
+              올린 게시물의 경우, 영상을 수정하거나 삭제할 수도 있습니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="marautube-align">
+          <img
+            src="../../img/portfolio/marau03.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <img
+            src="../../img/portfolio/marau04.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <img
+            src="../../img/portfolio/marau08.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>회원가입/로그인/업로드 등의 폼 양식</h3>
+            </div>
+            <p class="eff">
+              폼을 작성해야 하는 회원가입, 로그인, 업로드, 회원정보 수정, 동영상
+              수정 등의 폼 양식은 통일감을 주기 위하여 같은 디자인을
+              적용했습니다.<br />
+              <span class="point-text">로그인 페이지</span>는 사이트 내에서
+              가입해서 로그인할 수도 있지만, 깃허브 소셜 로그인을 적용하여,
+              깃허브와 연동해서 로그인하는 것도 가능합니다.
+            </p>
+            <p class="eff">
+              <span class="point-text">회원가입</span>에는 컨셉에 충실하기 위해
+              '기숙사 입력'과 자신을 뽐낼 수 있는 자기소개를 적을 수 있는 칸을
+              마련했으며, 회원 정보 수정에서 프로필 등록을 하는 것보다 회원가입
+              할 때 프로필 이미지를 등록할 수 있도록 했습니다. 만약 프로필
+              이미지를 등록하지 않았을 때는 상단에
+              <span class="point-text">no data</span>라고 뜨도록 했습니다. 회원
+              정보 수정에서는 'no data'라는 이미지가 뜨며, 아이디는 수정이
+              불가능하도록 막았습니다.
+            </p>
+            <p class="eff">
+              <span class="point-text">업로드 페이지</span>는 기본으로 등록되는
+              첨부파일 폼 디자인이 사이트 디자인과 맞지 않아 커스텀을
+              진행했으며, 썸네일 이미지를 가져오면, 현재 자신이 가져온 이미지를
+              프리뷰해서 보여줄 수 있도록 했습니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure id="channel">
+          <img
+            src="../../img/portfolio/marau05.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>채널 상세보기</h3>
+            </div>
+            <p class="eff">
+              유저나 나의 채널에 들어가면 출력되는 페이지입니다. 해당 유저의
+              아이디와 소속 기숙사, 자기소개, 프로필 이미지가 왼쪽에 출력되며,
+              해당 유저가 업로드한 동영상은 오른쪽에 출력되도록 했습니다. 또한,
+              등록한 동영상이 3개 이상일 경우, 편의를 위하여 스크롤을 해도 왼쪽
+              유저 정보는 움직이지 않도록 고정했습니다.
+            </p>
+            <p class="eff">
+              모바일에서는 유저 정보의 고정을 풀고 상단에 위치시켰으며, 그
+              아래에 업로드한 동영상이 출력됩니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau09.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <p class="eff">
+              만약 프로필 이미지와 업로드한 동영상이 없는 유저의 경우에는 'no
+              data'가 아닌, '머로더즈 맵' 이미지를 기본으로 출력되도록 했으며,
+              오른쪽에는 '죽음을 먹는 자'의 이미지를 넣고,
+              <span class="point-text"
+                >Something Wrong. Someone used Deletrius.</span
+              >이라는 문구를 추가해 컨셉을 지키며 위트를 더했습니다. (Deletrius:
+              없애는 마법)
+            </p>
+          </figcaption>
+        </figure>
+
+        <!-- dark mode -->
+        <figure id="dark">
+          <img
+            src="../../img/portfolio/marau06.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>다크 모드</h3>
+            </div>
+
+            <div class="portfolio-detail__eff eff">
+              <p>
+                눈의 편안함을 위하여 다크 모드를 추가하였습니다. 한 번도 해본
+                적이 없었기에 나름 연구하면서 구현했습니다. 유저가 원할 때마다
+                버튼으로 끄고 켜기 위하여
+                <span class="point-text">Javascript</span>를 채택했으며,
+                브라우저를 켜고 끌 때마다 유저가 지정한 모드가 저장되길 바라서
+                웹 스토리지 객체인<span class="point-text">localstorage</span>를
+                사용해서 브라우저 내에 '키-값'을 저장할 수 있도록 했습니다.
+              </p>
+              <p>
+                <span class="point-text">Cookie, Session</span>이 아닌
+                <span class="point-text">localstorage</span>를 사용한 이유는
+                지식이 깊지 않다는 것, 저장된 데이터는 세션 간에 공유된다는 점,
+                서버가 아닌 로컬에 보존되는 점, 자바스크립트로 조작하며
+                모바일에서도 사용할 수 있다는 점 등이 있습니다.
+              </p>
+
+              <div class="code-review">
+                <div class="code-review__box">
+                  <h5>HTML5</h5>
+                  <pre>
+  <xmp>
+    <li class="theme-change">
+      <a href="javascript:void(0)"
+        ><i class="material-icons">dark_mode</i></a
+      >
+    </li>
+  </xmp>
+</pre>
+
+                  <p>
+                    html구조는 간단합니다. 기본은 <samp>light mode</samp>이므로
+                    <samp>material icons</samp>아이콘을 <samp>dark_mode</samp>로
+                    설정합니다.
+                  </p>
+                  <p>
+                    <samp>dark mode</samp>가 되었을 때는 <samp>CSS</samp>파일
+                    안에 <samp>dark-mode</samp>일 때 변하는 색상 등을
+                    지정해줍니다. 색상은 눈을 편하게 하고자 사용한다는 것을
+                    명심하며 <samp>강렬하지 않은 색상</samp>을 사용했습니다.
+                    <samp>#000</samp>과 <samp>#fff</samp>을 사용하면 오히려
+                    가독성이 떨어지거나 밝아서 눈에 들어오지 않을 수 있어,
+                    <samp>#121212</samp>와 <samp>#bbb</samp>을 사용했습니다.
+                  </p>
+                </div>
+
+                <div class="code-review__box">
+                  <h5>Javascript</h5>
+                  <pre>
+<code>  // dark mode
+  const darkTheme = document.querySelector(".theme-change a");
+  const darkIcon = darkTheme.querySelector("i");
+
+  // 버튼을 클릭할 때마다 동작하는 함수
+  function darkThemeClick() {
+    darkTheme.addEventListener("click", function () {
+      console.log(darkIcon);
+      if (!body.classList.contains("dark-mode")) {
+        body.classList.add("dark-mode");
+        darkIcon.innerText = "light_mode";
+        localStorage.setItem("modeSwitch", "light_mode");
+      } else if (body.classList.contains("dark-mode")) {
+        body.classList.remove("dark-mode");
+        darkIcon.innerText = "dark_mode";
+        localStorage.setItem("modeSwitch", "dark_mode");
+      }
+    });
+  }
+
+  darkThemeClick();
+
+  const modeSwitch = localStorage.getItem("modeSwitch"); // "modeSwitch" 아이템 값 불러오기
+
+  //만약 modeSwitch가 dark_mode(테마는 light)라면 아이콘을 dark_mode(달)로 바꿈.
+  if (modeSwitch === "dark_mode") {
+    body.classList.remove("dark-mode");
+    darkIcon.innerText = "dark_mode";
+  } else if (modeSwitch === "light_mode") {
+    // modeSwitch가 light_mode(테마는 dark)라면 아이콘을 light_mode(해) 바꿈.
+    body.classList.add("dark-mode");
+    darkIcon.innerText = "light_mode";
+  }</code>
+</pre>
+                  <p>
+                    버튼을 클릭할 때마다 <samp>localstorage</samp>에 아이콘
+                    이름을 저장해서 현재 아이콘이 <samp>light</samp>인지
+                    <samp>dark</samp>인지 확인할 수 있게 해줍니다. 또한, 현재
+                    <samp>dark mode</samp>라면, <samp>body</samp>에
+                    <samp>dark-mode</samp>클래스를 추가하고, 아이콘을
+                    <samp>light_mode</samp>로 바꿉니다.
+                  </p>
+                </div>
+              </div>
+              <!-- //code-review -->
+            </div>
+            <!-- //portfolio-detail -->
+          </figcaption>
+        </figure>
+        <!-- //dark mode -->
+
+        <!-- portfolio-detail -->
+        <div class="portfolio-detail" id="cursor">
+          <div class="ttl eff">
+            <h2 class="josefin">function</h2>
+            <h3>마우스 오버 효과/커서 커스텀</h3>
+          </div>
+
+          <div class="portfolio-detail__eff eff">
+            <p>
+              마법학교 컨셉을 따르기 위해 마우스를 마법 지팡이라고 설정해,
+              링크에 마우스를 올리면
+              <span class="point-text">LUMOS(루모스. 불을 밝히는 마법)</span>로
+              변하는 애니메이션을 넣었습니다.
+            </p>
+
+            <ul>
+              <li>
+                <h4>마우스 오버 전</h4>
+                <div class="cursor"></div>
+              </li>
+              <li>
+                <h4>마우스 오버 후</h4>
+                <div class="cursor link-cursor">
+                  <div class="link-wrap">
+                    <div class="cursor-rotate">
+                      <span class="eng">l</span><span class="eng">u</span
+                      ><span class="eng">m</span><span class="eng">o</span
+                      ><span class="eng">s</span>
+                    </div>
+                    <div class="cursor-rotate">
+                      <span class="eng">l</span><span class="eng">u</span
+                      ><span class="eng">m</span><span class="eng">o</span
+                      ><span class="eng">s</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="code-review">
+              <div class="code-review__box">
+                <h5>HTML5</h5>
+                <pre>
+  <xmp>
+    <div class="cursor">
+      <div class="link-wrap">
+        <div class="cursor-rotate">
+          <span class="eng">l</span><span class="eng">u</span
+          ><span class="eng">m</span><span class="eng">o</span
+          ><span class="eng">s</span>
+        </div>
+        <div class="cursor-rotate">
+          <span class="eng">l</span><span class="eng">u</span
+          ><span class="eng">m</span><span class="eng">o</span
+          ><span class="eng">s</span>
+        </div>
+      </div>
+    </div>
+  </xmp>
+</pre>
+                <p>
+                  커서를 <samp>CSS</samp>로 감추고 <samp>div</samp>로 가짜
+                  커서를 만들었습니다. 이미지를 사용하면 유지보수가 힘들어서
+                  일일이 글자를 분리하여 <samp>transform: rotate(~deg);</samp>와
+                  <samp>position: absolute;</samp>로 위치값을 주었습니다.
+                </p>
+              </div>
+
+              <div class="code-review__box">
+                <h5>Javascript</h5>
+                <pre>
+<code>let mouseCursor = document.querySelector(".cursor");
+  let link = document.querySelectorAll("a");
+  let hoverLink = document.querySelectorAll(".hover-link");
+  
+  // 마우스가 움직일 때마다 div를 움직이게 함.
+  window.addEventListener("mousemove", cursor);
+  function cursor(e) {
+    mouseCursor.style.left = e.pageX + "px";
+    mouseCursor.style.top = e.pageY + "px";
+  }
+  
+  // a 태그에 마우스를 가져다대면 'link-cursor'라는 클래스를 붙임
+  link.forEach((link) => {
+    link.addEventListener("mouseover", () => {
+      mouseCursor.classList.add("link-cursor");
+    });
+  
+    link.addEventListener("mouseleave", () => {
+      mouseCursor.classList.remove("link-cursor");
+    });
+  });
+  // '.hover-link' 라는 클래스를 가지고 있는 요소에 마우스를 가져다대면 'link-cursor'라는 클래스를 붙임
+  hoverLink.forEach((hoverLink) => {
+    hoverLink.addEventListener("mouseover", () => {
+      mouseCursor.classList.add("link-cursor");
+    });
+    hoverLink.addEventListener("mouseleave", () => {
+      mouseCursor.classList.remove("link-cursor");
+    });
+  });</code>
+</pre>
+                <p>
+                  가짜<samp>div</samp>를 움직일 때마다 <samp>Javascript</samp>로
+                  x, y좌표값을 각자 <samp>left, top</samp>값에 입력되도록
+                  했습니다.
+                </p>
+              </div>
+            </div>
+            <!-- //code-review -->
+          </div>
+        </div>
+        <!-- //portfolio-detail -->
+
+        <!-- portfolio-detail -->
+        <div class="portfolio-detail" id="loading">
+          <div class="ttl eff">
+            <h2 class="josefin">function</h2>
+            <h3>로딩 페이지 애니메이션 효과</h3>
+          </div>
+
+          <div class="portfolio-detail__eff eff">
+            <p>
+              '머로더즈 맵'을 실행하면 모든 사람들의 움직임을 알 수 있도록
+              '발자국'이 움직이는데, 그것을 로딩 페이지에 적용시켜 유저가 지도
+              안에서 실제로 움직이고 있다는 것처럼 느낄 수 있도록 표현하고
+              싶었습니다.
+            </p>
+
+            <div class="loading-wrap">
+              <div class="loading">
+                <div class="ani">
+                  <div class="rotate-wrap">
+                    <p class="rotate">
+                      <span>m</span><span>a</span><span>r</span><span>a</span
+                      ><span>u</span><span>d</span><span>e</span><span>r</span
+                      ><span>s</span>
+                    </p>
+                    <p class="rotate">
+                      <span>m</span><span>a</span><span>r</span><span>a</span
+                      ><span>u</span><span>d</span><span>e</span><span>r</span
+                      ><span>s</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-review">
+              <div class="code-review__box">
+                <h5>HTML5/CSS</h5>
+                <pre>
+  <xmp>
+  <div class="loading">
+    <div class="ani">
+      <div class="rotate-wrap">
+        <p class="rotate">
+          <span>m</span><span>a</span><span>r</span><span>a</span
+          ><span>u</span><span>d</span><span>e</span><span>r</span
+          ><span>s</span>
+        </p>
+        <p class="rotate">
+          <span>m</span><span>a</span><span>r</span><span>a</span
+          ><span>u</span><span>d</span><span>e</span><span>r</span
+          ><span>s</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  //css
+  .ani {
+    background: url("https://marautube.herokuapp.com/loading.png") no-repeat 0
+      0;
+    background-size: 1287px 127px;
+    position: relative;
+    z-index: 99999999;
+    width: 127px;
+    height: 127px;
+    animation: loading 2000ms infinite steps(10);
+  }
+  @keyframes loading {
+    100% {
+      background-position: -1287px 0;
+    }
+  }
+  </xmp>
+</pre>
+                <p>
+                  서클 주위를 도는 글자는 커서에서 만든 방식대로
+                  구현했습니다.<br />
+                  발자국이 움직이는 애니메이션은 <samp>CSS keyframes</samp>의
+                  <samp>steps</samp>를 이용해서 10프레임에 거쳐
+                  <samp>background position</samp>이 <samp>width</samp> 값만큼
+                  보여지며 동작되도록 했습니다.
+                </p>
+              </div>
+
+              <div class="code-review__box">
+                <h5>Javascript</h5>
+                <pre>
+<code>window.addEventListener("load", () => {
+  body.classList.remove("before-load");
+  document.querySelector(".loading").addEventListener("transitionend", (e) => {
+    body.removeChild(e.currentTarget);
+  });
+});</code>
+</pre>
+                <p>
+                  <samp>loading</samp>이 완료되면 <samp>body</samp>에 지정했던
+                  <samp>before-load</samp>클래스를 제거하고
+                  <samp>transition</samp>애니메이션이 전부 재생된다면,
+                  <samp>body</samp>안에 있는 <samp>.loading</samp> 태그를 전부
+                  삭제해서 보이지 않도록 했습니다.
+                </p>
+              </div>
+            </div>
+            <!-- //code-review -->
+          </div>
+        </div>
+        <!-- //portfolio-detail -->
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau07.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>로그인 했을 때 헤더의 변화</h3>
+            </div>
+            <p class="eff">
+              로그인을 했을 때는 유저의 프로필 이미지와 닉네임이 기본으로
+              출력됩니다. 또한 <span class="point-text">drop down</span>을
+              사용하여 프로필을 누르면 메뉴가 나옵니다. 이 곳에서 업로드, 비디오
+              녹화, 내 채널, 회원 정보 수정, 로그아웃을 할 수 있습니다.
+            </p>
+            <p class="eff">
+              이런 자잘한 것에도 컨셉을 유지하기 위하여
+              <span class="point-text">회원 정보 수정을 폴리주스 마법약</span
+              >으로
+              <span class="point-text">로그아웃을 마법의 장난 끝</span>이라
+              지정했습니다.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="../../img/portfolio/marau10.jpg"
+            alt="marautube"
+            class="eff"
+          />
+          <figcaption class="portfolio-detail">
+            <div class="ttl eff">
+              <h2 class="josefin">function/design</h2>
+              <h3>404 에러 페이지</h3>
+            </div>
+            <p class="eff">
+              <a
+                href="https://marautube.herokuapp.com/404"
+                class="point-text"
+                target="_blank"
+                >404 에러 페이지</a
+              >도 디자인했습니다. 끝까지 모티브이자 컨셉 유지를 위하여 '머로더즈
+              맵'에서 나온 스네이프 교수의 호기심을 영원히 피하게 하는 마법이
+              출력되도록 했습니다.
+            </p>
+            <p class="eff">
+              스네이프 교수의 이미지는 gif로 움직이며, '마법의 장난 다시 시작'을
+              누르면 인트로 화면으로 넘어갑니다.
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <div class="ttl eff">
+        <h2 class="josefin">Other Projects</h2>
+        <h3>기타 프로젝트</h3>
+      </div>
+      <ul class="eff">
+        <li>
+          <a
+            href="../../../index.html#work"
+            style="background-image: url(../../img/about/slide10.jpg)"
+            ><span>prev</span>
+            <p>main page</p></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://leesaewa.github.io/react-practice/"
+            style="background-image: url(../../img/kor_22_04.jpg)"
+            target="_blank"
+            ><span>next</span>
+            <p>react- movie app</p></a
+          >
+        </li>
+      </ul>
+      <small>Copyright &#169; Saewa's Portfolio All Rights Reserved.</small>
+    </footer>
+
+    <!-- floating nav -->
+    <section class="floating-nav">
+      <ul>
+        <li>
+          <a
+            href="pf_marautube_jp.html"
+            class="material-icons floating-nav__lang"
+            >language
+            <p class="tooltip eng">japanese</p></a
+          >
+        </li>
+        <li>
+          <a href="#" id="backToTop" class="material-icons floating-nav__top"
+            >arrow_upward</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- //floating nav -->
+
+    <script src="../../js/common.js"></script>
+
+    <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+  </body>
+</html>
