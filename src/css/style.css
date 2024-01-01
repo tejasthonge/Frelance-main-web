@@ -358,7 +358,7 @@ header .hamburger-btn.hamburger-btn-open::after {
           transform: translate3d(0, 100%, 0);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 869px) {
   header .main-navbar {
     padding: 1rem 2rem;
   }
