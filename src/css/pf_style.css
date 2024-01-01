@@ -1556,7 +1556,42 @@ footer small {
     margin-bottom: 0;
   }
   #cont .portfolio-list figcaption ul {
-    width: 27%;
+    width: 47%;
+  }
+  .video-container .video-container {
+    margin-bottom: 250px;
+  }
+  .video-container .video-container:after {
+    width: 532px;
+    height: 170px;
+    left: 50%;
+    bottom: -168px;
+  }
+  /*container*/
+}
+
+/*---------------------
+        responsive
+---------------------*/
+@media screen and (min-width: 968px) {
+  #cont .portfolio-list figcaption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #cont .portfolio-list figcaption .text-basic:not(:last-child) {
+    margin-bottom: 0;
+  }
+  #cont .portfolio-list figcaption ul {
+    width: 47%;
   }
   .video-container .video-container {
     margin-bottom: 250px;
