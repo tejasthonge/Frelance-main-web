@@ -58,7 +58,7 @@ function nextSlide() {
 }
 
 function startAutoPlay() {
-  autoPlay = setInterval(nextSlide, 5000);
+  autoPlay = setInterval(nextSlide, 1500);
 }
 
 function stopAutoPlay() {
